@@ -10,6 +10,17 @@ function App() {
         <h1>Weather App</h1>
         <Search />
       </header>
+      <p>
+        <a
+          href="https://github.com/rochu36/weather-react"
+          target="_blank"
+          rel="noreferrer"
+          className="App-link"
+        >
+          Open-source code
+        </a>{" "}
+        by Rosa Chu
+      </p>
     </div>
   );
 }
