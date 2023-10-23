@@ -6,21 +6,21 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="container">
         <h1>Weather App</h1>
         <Search />
-      </header>
-      <p>
-        <a
-          href="https://github.com/rochu36/weather-react"
-          target="_blank"
-          rel="noreferrer"
-          className="App-link"
-        >
-          Open-source code
-        </a>{" "}
-        by Rosa Chu
-      </p>
+        <footer>
+          <a
+            href="https://github.com/rochu36/weather-react"
+            target="_blank"
+            rel="noreferrer"
+            className="App-link"
+          >
+            Open-source code
+          </a>{" "}
+          by Rosa Chu
+        </footer>
+      </div>
     </div>
   );
 }
