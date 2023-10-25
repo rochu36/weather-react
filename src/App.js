@@ -1,5 +1,5 @@
 import React from "react";
-import Search from "./Search";
+import Weather from "./Weather";
 
 import "./App.css";
 
@@ -7,8 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
-        <Search />
+        <Weather defaultCity="Toronto" />
         <footer>
           <a
             href="https://github.com/rochu36/weather-react"
