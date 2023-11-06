@@ -2,7 +2,15 @@
   text-align: center;
 }
 
-.WeatherForecast-temperature-low {
-  margin-left: 5px;
+.WeatherForecast h2 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.WeatherForecast-temperatures {
+  font-size: 14px;
+}
+
+.WeatherForecast-temperature-min {
   opacity: 0.6;
 }
